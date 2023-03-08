@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: grey;
+  color: violet;
+}
+
+.main {
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav p, .logo {
+  cursor: pointer;
+}
+
+.nav p {
+  padding: .5em;
+}
+
+.logo {
+  margin: .3em .1em;
+  font-size: 2em;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.nav-2 {
+  display: flex;
+}
+
+/*-----------right-----------*/
+
+.container-two {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-2 h2, .nav-2 p {
+  cursor: pointer;
+}
+
+.nav-2 h2 {
+  color: white;
+  background: violet;
+  margin: .3em;
+  padding: .2em .6em;
+  border-radius: 10px;
+}
+
+.nav-2 p {
+  flex: 1;
+  margin: .3em .5em;
+  width: 40px;
+  height: 40px;
+  background: violet;
+  border-radius: 50%;
+}
