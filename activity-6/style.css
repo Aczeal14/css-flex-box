@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-header {
+  background: violet;
+}
+
+.title {
+  color: #fff;
+  padding: .5em 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+}
+
+.links {
+  font-size: 24px;
+  width: 300px;
+  background: blue;
+}
+
+.link {
+  color: #fff;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.content-container {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.content {
+  padding: 32px;
+  border: 1px solid rgba(0,0,0, .6);
+  width: 400px;
+  justify-content: center;
+}
+
+
+.main-footer {
+  background: gray;
+  text-align: center;
+}
+
+.main-footer p {
+  color: violet;
+  padding: 2em;
+}
